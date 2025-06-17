@@ -1,0 +1,19 @@
+#Inputs from User
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+#Basic MAth Operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+if num2 != 0:
+    division = num1 / num2
+else:
+    division = "Undefined (cannot divide by zero)"
+
+# Results
+print("\nResults:")
+Addition = print(f"Addition: {num1} + {num2} = {addition}")
+Subtraction = print(f"Subtraction: {num1} - {num2} = {subtraction}")
+Multiplication = print(f"Multiplication: {num1} * {num2} = {multiplication}")
+Division = print(f"Division: {num1} / {num2} = {division}")
